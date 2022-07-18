@@ -13,7 +13,7 @@ const SSL_PORT = process.env.SSL_PORT;
 
 app.use(express.static('./frontend/build'));
 
-app.get('/', (req, res) => {
+app.get('/*', (req, res) => {
     res.status(404).send('Page not found');
 });
 const httpServer = http.createServer(app);
