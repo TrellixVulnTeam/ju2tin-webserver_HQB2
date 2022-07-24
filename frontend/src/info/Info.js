@@ -13,7 +13,7 @@ export const info = {
     firstName: "Justin",
     lastName: "Fernbaugh",
     initials: "jf", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Backend Software Engineer",
+    position: "a Fullstack Software Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -60,7 +60,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Justin. I'm currently studying Computer Science at Oregon State University. I enjoy learning about Distributed Systems, Parallel Programming & Backend Architecture. You should hire me!",
+    bio: "Hello! I'm Justin. I'm currently studying Computer Science at Oregon State University. I enjoy learning about Distributed Systems, Parallel Programming & Backend Architecture.",
     skills:
         {
             proficientWith: ['nodejs', 'c++', 'c', 'git', 'github', 'html5', 'css3', 'agile'],
