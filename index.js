@@ -11,7 +11,7 @@ const credentials = {key: privateKey, cert: certificate};
 const PORT = process.env.PORT;
 const SSL_PORT = process.env.SSL_PORT;
 
-app.use(express.static('./frontend/build'));
+app.use(express.static('./build'));
 
 app.get('/*', (req, res) => {
     res.status(404).send('Page not found');
